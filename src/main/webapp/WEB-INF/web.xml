@@ -9,4 +9,15 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+
+
+  <servlet>
+  	<servlet-name>Loginpage</servlet-name>
+  	<servlet-class>Loginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Loginpage</servlet-name>
+  	<url-pattern>/Loginpage</url-pattern>
+  </servlet-mapping>
+
 </web-app>
